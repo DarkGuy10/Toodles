@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-Toodles is a very minimalist logger for javascript/typescript projects. It is a looks-first uitility and the colors used are based on the [Catpuccin Mocha](https://github.com/catppuccin/catppuccin#-palette) color palette.
+Toodles is a very minimalist logger for javascript/typescript projects. It is a looks-first uitility and the colors used are based on the <a href="https://github.com/catppuccin/catppuccin#-palette">Catpuccin Mocha</a> color palette.
 </p>
 
 &nbsp;
@@ -40,39 +40,46 @@ const logger = new Toodles();
 
 Each such instance has the following functions:
 
-- #### `prefix(logLevel)`
+- ##### `prefix(logLevel)`
 
   returns: `string`
+
   Returns text blocks prepended to different types of messages
 
-- #### `plain(message)`
+- ##### `plain(message)`
 
   returns: `void`
+
   Print a plain message (same as console.log)
 
-- #### `error(message)`
+- ##### `error(message)`
 
   returns: `void`
+
   Print an error message
 
-- #### `success(message)`
+- ##### `success(message)`
 
   returns: `void`
+
   Print a success message
 
-- #### `info(message)`
+- ##### `info(message)`
 
   returns: `void`
+
   Print an info message
 
-- #### `warn(message)`
+- ##### `warn(message)`
 
   return: `void`
+
   Print a progress message
 
-- #### `progress(message)`
+- ##### `progress(message)`
 
   return: `void`
+
   Print a progress message
 
 &nbsp;
