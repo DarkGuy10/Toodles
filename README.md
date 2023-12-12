@@ -31,20 +31,13 @@ pnpm add toodles
 
 Toodles is an **ESM-only package**, meaning you cannot use `require()` statements for importing it. You will have to stick to the `import/export` format.
 
-Start by importing the `Toodles` class and creating an instance.
+Start by importing the `Toodles` class.
 
 ```ts
 import Toodles from "toodles";
-const logger = new Toodles();
 ```
 
-Each such instance has the following functions:
-
-- ##### `prefix(logLevel)`
-
-  returns: `string`
-
-  Returns text blocks prepended to different types of messages
+All the log functions are static class fields of this class.
 
 - ##### `plain(message)`
 
