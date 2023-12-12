@@ -1,4 +1,5 @@
 <h3 align="center">
+	<img width=400 src="https://github.com/DarkGuy10/Toodles/assets/62807269/ac26ae77-8c66-4179-8eeb-d9c6eaeefa3e"/><br><br>
 	「Toodles」
 </h3>
 
